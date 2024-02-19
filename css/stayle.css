@@ -1,0 +1,48 @@
+body ,h1 ,h2, h3 {
+    margin: 0;
+}
+ *{
+    box-sizing: border-box;
+ }
+
+
+.something{
+    width: 100%;
+}
+
+
+
+
+
+.bg-backgroind{
+    background-image: url(https://cgifurniture.com/wp-content/uploads/2020/12/modern-interior-design-6-styles-View03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 100vh;
+}
+
+ .little-container{
+    max-width: 2030px;
+    margin: 0 auto;
+}
+
+ .home0header{
+    width: 190px;
+ }
+
+.logo{
+    font-size: 24px;
+    text-decoration:none;
+    color: white;
+}
+
+.perfect{
+    display: flex;
+    align-items: center;
+}
+
+
+.ddd{
+ display: flex;
+ justify-content:space-between;
+}

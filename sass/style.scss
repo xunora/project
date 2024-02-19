@@ -1,0 +1,24 @@
+@mixin sassStayles($fontSize, $background-color) {
+    color: green;
+    font-size: $fontSize;
+    background-color: bisque;
+    
+}
+
+.header{
+    &__screen {
+        text-decoration: none;
+        @include sassStayles(30px, 30px)
+    }
+
+    &__about {
+        font-size: 20px;
+        @include sassStayles(15px, 30px)
+    }
+
+  
+
+
+
+
+}
